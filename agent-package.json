@@ -1,0 +1,24 @@
+{
+  "name": "ai-student-growth-plan",
+  "version": "1.0.0",
+  "description": "Universal agent workflow for AI-powered college student growth planning, daily accountability, and weekly review.",
+  "license": "MIT",
+  "language": ["en", "zh-CN"],
+  "entrypoints": {
+    "universal": "UNIVERSAL_AGENT.md",
+    "codexSkill": "ai-student-growth-plan/SKILL.md",
+    "installGuide": "INSTALL.md"
+  },
+  "references": [
+    "ai-student-growth-plan/references/agents.md",
+    "ai-student-growth-plan/references/prompt-library.md",
+    "ai-student-growth-plan/references/output-formats.md"
+  ],
+  "workflow": [
+    "deep-self-analysis",
+    "five-mentor-agents",
+    "chief-planner",
+    "daily-accountability",
+    "weekly-review"
+  ]
+}
