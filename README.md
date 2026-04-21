@@ -43,16 +43,16 @@ ai-student-growth-plan/references/output-formats.md
 
 ## Codex Skill Installation
 
-如果你使用 Codex，可以发布到 GitHub 后通过 skill installer 安装：
+如果你使用 Codex，可以通过 skill installer 从本 GitHub 仓库安装：
 
 ```powershell
-python "$HOME\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py" --repo <owner>/<repo> --path ai-student-growth-plan
+python "$HOME\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py" --repo dmuwg2023-dot/ai-student-growth-plan --path ai-student-growth-plan
 ```
 
 也可以用 GitHub URL：
 
 ```powershell
-python "$HOME\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py" --url https://github.com/<owner>/<repo>/tree/main/ai-student-growth-plan
+python "$HOME\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py" --url https://github.com/dmuwg2023-dot/ai-student-growth-plan/tree/main/ai-student-growth-plan
 ```
 
 安装后重启 Codex，让新 skill 生效。
