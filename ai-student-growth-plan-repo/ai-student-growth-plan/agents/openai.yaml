@@ -1,4 +1,0 @@
-interface:
-  display_name: "AI Student Growth Plan"
-  short_description: "Build personalized AI-powered college growth plans."
-  default_prompt: "Use $ai-student-growth-plan to create a personalized college growth plan with mentor agents and daily supervision."
